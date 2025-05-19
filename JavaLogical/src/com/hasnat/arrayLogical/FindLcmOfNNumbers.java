@@ -1,15 +1,17 @@
 package com.hasnat.arrayLogical;
 
+import java.util.Arrays;
+
 public class FindLcmOfNNumbers {
     public static void main(String[] args) {
        // Scanner scanner = new Scanner(System.in);
-        int []arr={7, 9, 11, 13, 17, 19};
-        long lcm =arr[0];
+        //int []arr={7, 9, 11, 13, 17, 19};
+        int []arr={15,30,45};
           
-        for(int n : arr){
-            if(lcm<n)lcm=n;
-        }
-         System.out.println(lcm);
+        Arrays.sort(arr);
+        long lcm =arr[0];
+        
+         System.out.println("lcm "+lcm);
          
             for(int i=0;i<arr.length;i++){
                 for(int j=1;lcm%arr[i]!=0;j++){
