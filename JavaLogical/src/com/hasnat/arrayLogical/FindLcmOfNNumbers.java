@@ -18,8 +18,6 @@ public class FindLcmOfNNumbers {
                     
                     if(lcm*j % arr[i]==0) lcm*=j;
                     
-                    
-                    System.out.println(lcm+" "+arr[i]);
                 }
             }
         

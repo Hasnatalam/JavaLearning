@@ -8,7 +8,7 @@ public class FindGCD {
 		int arr[]= {350,250,150};
 		Arrays.sort(arr);
 		//System.out.println(arr[0]);
-		for(int i=1;i<=arr[0]/2;i++) {
+		for(int i=1;i<=arr[0];i++) {
 			//System.out.println(i);
 			boolean flag=true;
 			for(int j=0;j<arr.length;j++) {
