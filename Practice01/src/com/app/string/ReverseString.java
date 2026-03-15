@@ -9,5 +9,10 @@ public class ReverseString {
 			 sb.append(str.substring(str.length()-1-i,str.length()-i)); 
 		}
 		System.out.println(sb);
+		
+		StringBuilder sb1 = new StringBuilder(str);
+		System.err.println(sb1.reverse());
+
+		
 	}
 }
